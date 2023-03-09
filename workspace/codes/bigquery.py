@@ -13,7 +13,7 @@ class BigQueryConnector:
             df = results.to_dataframe()
             return df
         except Exception as e:
-            print("A FALHA FOI ESSA AQUI")
+            print("Something was wrong")
             print(e)
 
     def save_dataframe(self, dataframe, table_name, dataset_name):

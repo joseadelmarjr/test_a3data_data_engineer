@@ -5,7 +5,6 @@ services:
   jupyter:
     image: jupyter/minimal-notebook
     restart: always
-    # command:  /bin/bash -c "start.sh jupyter notebook --NotebookApp.token=''; pip install -r /home/jovyan/workspace/codes/requirements.txt"
     command: /bin/bash -c "start.sh jupyter notebook --NotebookApp.token=''"
     env_file:
       - .env
