@@ -1,0 +1,13 @@
+﻿AccountKey;ParentAccountKey;AccountCodeAlternateKey;ParentAccountCodeAlternateKey;AccountDescription;AccountType
+36;26;2400;210;Long Term Liabilities;Liabilities
+40;36;2440;2400;Other Long Term Liabilities;Liabilities
+42;41;3010;300;Partner Capital;Liabilities
+49;48;400;40;Gross Margin;Revenue
+50;49;4100;400;Net Sales;Revenue
+51;50;4110;4100;Gross Sales;Revenue
+53;50;4130;4100;Returns and Adjustments;Expenditures
+54;50;4140;4100;Discounts;Expenditures
+87;58;6920;60;Rent;Expenditures
+95;NULL;9500;NULL;Statistical Accounts;Statistical
+99;95;9540;9500;Square Footage;Balances
+100;27;2220;2200;Current Installments of Long-term Debt;Liabilities
