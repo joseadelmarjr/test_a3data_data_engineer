@@ -13,7 +13,7 @@ class BigQueryConnector:
             df = results.to_dataframe()
             return df
         except Exception as e:
-            print("Something was wrong")
+            print("Something was wrong.")
             print(e)
 
     def save_dataframe(self, dataframe, table_name, dataset_name):
@@ -23,7 +23,6 @@ class BigQueryConnector:
             schema=[],
             write_disposition="WRITE_TRUNCATE",
         )
-        # job_config.write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
 
         job = self.client.load_table_from_dataframe(
             dataframe, table_ref, job_config=job_config
